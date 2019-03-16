@@ -28,7 +28,7 @@ pub use self::type_name::{TypeNameContext, RegularTypeNameContext, StatementType
 pub use self::nested::*;
 
 use ast::*;
-use error::Error;
+pub use error::Error;
 use lexer::{Lexer, Token};
 use lexer::Token::*;
 
